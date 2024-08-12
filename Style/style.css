@@ -35,15 +35,16 @@ body {
 .navbar-nav .nav-link {
     color: white; /* Cor do texto */
     text-decoration: none; /* Sublinhado */
+    font-size: 1.5rem;
 }
 
 .navbar-nav .nav-link:hover {
     text-decoration: underline; /* Remover sublinhado ao passar o mouse */
-  }
+}
 
-  .mobile-button{
+.mobile-button{
     background-color: white !important;
-  }
+}
 .navbar-exemplo{
     background-color: var(--primary-color) !important;
 }
@@ -99,6 +100,15 @@ body {
   
   .banner-3{
     background-image: url(../assets/Exemplo_banner-3.png);
+}
+
+/* Customização dos cards */
+.card {
+    transition: background-color 0.3s ease; 
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
 }
 
 .consequencias-card{
