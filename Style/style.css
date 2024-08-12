@@ -1,0 +1,178 @@
+/*Colocando o arquivo da fonte Roboto*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+/*Criando as variáveis de cor e definindo a fonte do projeto*/
+html{
+    scroll-behavior: smooth;
+
+}
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    --bege: #E6E0D6;
+    --secondary-color: #c9c3bb;
+    --primary-color: #a39a90;
+    
+}
+/*Customizando o botão do modo escuro*/
+
+.imagem-logo{
+    width: 80px;
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Sublinhado */
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Remover sublinhado ao passar o mouse */
+  }
+
+  .mobile-button{
+    background-color: white !important;
+  }
+.navbar-exemplo{
+    background-color: var(--primary-color) !important;
+}
+/*Customizando o banner*/
+.banner-1{
+    background-image: url(../assets/Exemplo_banner-1.png);
+
+}
+.banners{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-secundario{
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* .introducao{
+    padding-top: 20rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+} */
+.introducao-texto{
+    padding-top: 2rem;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.exemplo-card{
+     padding-top: 1rem; 
+}
+.exemplo-card-img{
+    width: 350px;
+    height: 350px;
+}
+
+.banner-titulo{
+    --bs-bg-opacity: 0.3;
+}
+
+.banner-2{
+    background-image: url(../assets/Exemplo_banner-2.png);
+}
+  
+  .banner-3{
+    background-image: url(../assets/Exemplo_banner-3.png);
+}
+
+.consequencias-card{
+    border-radius: 5%;
+}
+
+.botao-padrao {
+    background-color: var(--primary-color);
+    color: black;
+}
+  
+.botao-padrao:hover {
+    background-color: var(--secondary-color);
+}
+
+.modal-imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+}
+.modal-text{
+    text-align: justify;
+}
+
+.footer-exemplo{
+    background-color: var(--primary-color);
+}
+
+/* Responsividade mobile */
+@media only screen and (max-device-width: 480px){
+
+    .introducao-texto{
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+        font-size: 16px;
+    }
+    .navbar-nav .nav-link {
+        color: black; /* Cor do texto */
+        text-decoration: none; /* Sublinhado */
+    }
+
+    .banners{
+        height: 48vh;
+    }
+
+    .banner-secundario{
+        height: 30vh;
+    }
+
+}
+
+@media only screen and (max-device-width: 991px){
+
+    .introducao-texto{
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+        font-size: 16px;
+    }
+    .navbar-nav .nav-link {
+        color: black; /* Cor do texto */
+        text-decoration: none; /* Sublinhado */
+    }
+
+    .banners{
+        height: 48vh;
+    }
+
+    .banner-secundario{
+        height: 30vh;
+    }
+
+}
